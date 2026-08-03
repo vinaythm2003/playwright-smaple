@@ -1,4 +1,5 @@
 // Inlcude playwright module
+// Epic 3 Comments
 const { expect } = require('@playwright/test')
 
 // create class
@@ -14,6 +15,7 @@ exports.HomePage = class HomePage {
 
         // Elements
         this.searchTextbox = page.locator('#APjFqb');
+        this.searchTextbox = page.locator('#APjFqb2');
     }
 
     async goto(){
